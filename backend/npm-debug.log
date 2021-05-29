@@ -1,0 +1,596 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install' ]
+2 info using npm@3.10.10
+3 info using node@v6.17.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData bunyan
+20 silly mapToRegistry name bunyan
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry data Result {
+23 silly mapToRegistry   raw: 'bunyan',
+23 silly mapToRegistry   scope: null,
+23 silly mapToRegistry   escapedName: 'bunyan',
+23 silly mapToRegistry   name: 'bunyan',
+23 silly mapToRegistry   rawSpec: '',
+23 silly mapToRegistry   spec: 'latest',
+23 silly mapToRegistry   type: 'tag' }
+24 silly mapToRegistry uri https://registry.npmjs.org/bunyan
+25 silly fetchNamedPackageData cluster
+26 silly mapToRegistry name cluster
+27 silly mapToRegistry using default registry
+28 silly mapToRegistry registry https://registry.npmjs.org/
+29 silly mapToRegistry data Result {
+29 silly mapToRegistry   raw: 'cluster',
+29 silly mapToRegistry   scope: null,
+29 silly mapToRegistry   escapedName: 'cluster',
+29 silly mapToRegistry   name: 'cluster',
+29 silly mapToRegistry   rawSpec: '',
+29 silly mapToRegistry   spec: 'latest',
+29 silly mapToRegistry   type: 'tag' }
+30 silly mapToRegistry uri https://registry.npmjs.org/cluster
+31 silly fetchNamedPackageData config
+32 silly mapToRegistry name config
+33 silly mapToRegistry using default registry
+34 silly mapToRegistry registry https://registry.npmjs.org/
+35 silly mapToRegistry data Result {
+35 silly mapToRegistry   raw: 'config',
+35 silly mapToRegistry   scope: null,
+35 silly mapToRegistry   escapedName: 'config',
+35 silly mapToRegistry   name: 'config',
+35 silly mapToRegistry   rawSpec: '',
+35 silly mapToRegistry   spec: 'latest',
+35 silly mapToRegistry   type: 'tag' }
+36 silly mapToRegistry uri https://registry.npmjs.org/config
+37 silly fetchNamedPackageData fs
+38 silly mapToRegistry name fs
+39 silly mapToRegistry using default registry
+40 silly mapToRegistry registry https://registry.npmjs.org/
+41 silly mapToRegistry data Result {
+41 silly mapToRegistry   raw: 'fs',
+41 silly mapToRegistry   scope: null,
+41 silly mapToRegistry   escapedName: 'fs',
+41 silly mapToRegistry   name: 'fs',
+41 silly mapToRegistry   rawSpec: '',
+41 silly mapToRegistry   spec: 'latest',
+41 silly mapToRegistry   type: 'tag' }
+42 silly mapToRegistry uri https://registry.npmjs.org/fs
+43 silly fetchNamedPackageData hapi
+44 silly mapToRegistry name hapi
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry data Result {
+47 silly mapToRegistry   raw: 'hapi',
+47 silly mapToRegistry   scope: null,
+47 silly mapToRegistry   escapedName: 'hapi',
+47 silly mapToRegistry   name: 'hapi',
+47 silly mapToRegistry   rawSpec: '',
+47 silly mapToRegistry   spec: 'latest',
+47 silly mapToRegistry   type: 'tag' }
+48 silly mapToRegistry uri https://registry.npmjs.org/hapi
+49 silly fetchNamedPackageData hapi-cors-headers
+50 silly mapToRegistry name hapi-cors-headers
+51 silly mapToRegistry using default registry
+52 silly mapToRegistry registry https://registry.npmjs.org/
+53 silly mapToRegistry data Result {
+53 silly mapToRegistry   raw: 'hapi-cors-headers',
+53 silly mapToRegistry   scope: null,
+53 silly mapToRegistry   escapedName: 'hapi-cors-headers',
+53 silly mapToRegistry   name: 'hapi-cors-headers',
+53 silly mapToRegistry   rawSpec: '',
+53 silly mapToRegistry   spec: 'latest',
+53 silly mapToRegistry   type: 'tag' }
+54 silly mapToRegistry uri https://registry.npmjs.org/hapi-cors-headers
+55 silly fetchNamedPackageData hapi-swagger
+56 silly mapToRegistry name hapi-swagger
+57 silly mapToRegistry using default registry
+58 silly mapToRegistry registry https://registry.npmjs.org/
+59 silly mapToRegistry data Result {
+59 silly mapToRegistry   raw: 'hapi-swagger',
+59 silly mapToRegistry   scope: null,
+59 silly mapToRegistry   escapedName: 'hapi-swagger',
+59 silly mapToRegistry   name: 'hapi-swagger',
+59 silly mapToRegistry   rawSpec: '',
+59 silly mapToRegistry   spec: 'latest',
+59 silly mapToRegistry   type: 'tag' }
+60 silly mapToRegistry uri https://registry.npmjs.org/hapi-swagger
+61 silly fetchNamedPackageData inert
+62 silly mapToRegistry name inert
+63 silly mapToRegistry using default registry
+64 silly mapToRegistry registry https://registry.npmjs.org/
+65 silly mapToRegistry data Result {
+65 silly mapToRegistry   raw: 'inert',
+65 silly mapToRegistry   scope: null,
+65 silly mapToRegistry   escapedName: 'inert',
+65 silly mapToRegistry   name: 'inert',
+65 silly mapToRegistry   rawSpec: '',
+65 silly mapToRegistry   spec: 'latest',
+65 silly mapToRegistry   type: 'tag' }
+66 silly mapToRegistry uri https://registry.npmjs.org/inert
+67 silly fetchNamedPackageData jsonwebtoken
+68 silly mapToRegistry name jsonwebtoken
+69 silly mapToRegistry using default registry
+70 silly mapToRegistry registry https://registry.npmjs.org/
+71 silly mapToRegistry data Result {
+71 silly mapToRegistry   raw: 'jsonwebtoken',
+71 silly mapToRegistry   scope: null,
+71 silly mapToRegistry   escapedName: 'jsonwebtoken',
+71 silly mapToRegistry   name: 'jsonwebtoken',
+71 silly mapToRegistry   rawSpec: '',
+71 silly mapToRegistry   spec: 'latest',
+71 silly mapToRegistry   type: 'tag' }
+72 silly mapToRegistry uri https://registry.npmjs.org/jsonwebtoken
+73 silly fetchNamedPackageData lodash
+74 silly mapToRegistry name lodash
+75 silly mapToRegistry using default registry
+76 silly mapToRegistry registry https://registry.npmjs.org/
+77 silly mapToRegistry data Result {
+77 silly mapToRegistry   raw: 'lodash',
+77 silly mapToRegistry   scope: null,
+77 silly mapToRegistry   escapedName: 'lodash',
+77 silly mapToRegistry   name: 'lodash',
+77 silly mapToRegistry   rawSpec: '',
+77 silly mapToRegistry   spec: 'latest',
+77 silly mapToRegistry   type: 'tag' }
+78 silly mapToRegistry uri https://registry.npmjs.org/lodash
+79 silly fetchNamedPackageData mongoose
+80 silly mapToRegistry name mongoose
+81 silly mapToRegistry using default registry
+82 silly mapToRegistry registry https://registry.npmjs.org/
+83 silly mapToRegistry data Result {
+83 silly mapToRegistry   raw: 'mongoose',
+83 silly mapToRegistry   scope: null,
+83 silly mapToRegistry   escapedName: 'mongoose',
+83 silly mapToRegistry   name: 'mongoose',
+83 silly mapToRegistry   rawSpec: '',
+83 silly mapToRegistry   spec: 'latest',
+83 silly mapToRegistry   type: 'tag' }
+84 silly mapToRegistry uri https://registry.npmjs.org/mongoose
+85 silly fetchNamedPackageData mysql
+86 silly mapToRegistry name mysql
+87 silly mapToRegistry using default registry
+88 silly mapToRegistry registry https://registry.npmjs.org/
+89 silly mapToRegistry data Result {
+89 silly mapToRegistry   raw: 'mysql',
+89 silly mapToRegistry   scope: null,
+89 silly mapToRegistry   escapedName: 'mysql',
+89 silly mapToRegistry   name: 'mysql',
+89 silly mapToRegistry   rawSpec: '',
+89 silly mapToRegistry   spec: 'latest',
+89 silly mapToRegistry   type: 'tag' }
+90 silly mapToRegistry uri https://registry.npmjs.org/mysql
+91 silly fetchNamedPackageData os
+92 silly mapToRegistry name os
+93 silly mapToRegistry using default registry
+94 silly mapToRegistry registry https://registry.npmjs.org/
+95 silly mapToRegistry data Result {
+95 silly mapToRegistry   raw: 'os',
+95 silly mapToRegistry   scope: null,
+95 silly mapToRegistry   escapedName: 'os',
+95 silly mapToRegistry   name: 'os',
+95 silly mapToRegistry   rawSpec: '',
+95 silly mapToRegistry   spec: 'latest',
+95 silly mapToRegistry   type: 'tag' }
+96 silly mapToRegistry uri https://registry.npmjs.org/os
+97 silly fetchNamedPackageData sequelize
+98 silly mapToRegistry name sequelize
+99 silly mapToRegistry using default registry
+100 silly mapToRegistry registry https://registry.npmjs.org/
+101 silly mapToRegistry data Result {
+101 silly mapToRegistry   raw: 'sequelize',
+101 silly mapToRegistry   scope: null,
+101 silly mapToRegistry   escapedName: 'sequelize',
+101 silly mapToRegistry   name: 'sequelize',
+101 silly mapToRegistry   rawSpec: '',
+101 silly mapToRegistry   spec: 'latest',
+101 silly mapToRegistry   type: 'tag' }
+102 silly mapToRegistry uri https://registry.npmjs.org/sequelize
+103 silly fetchNamedPackageData vision
+104 silly mapToRegistry name vision
+105 silly mapToRegistry using default registry
+106 silly mapToRegistry registry https://registry.npmjs.org/
+107 silly mapToRegistry data Result {
+107 silly mapToRegistry   raw: 'vision',
+107 silly mapToRegistry   scope: null,
+107 silly mapToRegistry   escapedName: 'vision',
+107 silly mapToRegistry   name: 'vision',
+107 silly mapToRegistry   rawSpec: '',
+107 silly mapToRegistry   spec: 'latest',
+107 silly mapToRegistry   type: 'tag' }
+108 silly mapToRegistry uri https://registry.npmjs.org/vision
+109 verbose request uri https://registry.npmjs.org/bunyan
+110 verbose request no auth needed
+111 info attempt registry request try #1 at 10:29:58 PM
+112 verbose request id b364de684830c817
+113 http request GET https://registry.npmjs.org/bunyan
+114 verbose request uri https://registry.npmjs.org/cluster
+115 verbose request no auth needed
+116 info attempt registry request try #1 at 10:29:58 PM
+117 http request GET https://registry.npmjs.org/cluster
+118 verbose request uri https://registry.npmjs.org/config
+119 verbose request no auth needed
+120 info attempt registry request try #1 at 10:29:58 PM
+121 http request GET https://registry.npmjs.org/config
+122 verbose request uri https://registry.npmjs.org/fs
+123 verbose request no auth needed
+124 info attempt registry request try #1 at 10:29:58 PM
+125 http request GET https://registry.npmjs.org/fs
+126 verbose request uri https://registry.npmjs.org/hapi
+127 verbose request no auth needed
+128 info attempt registry request try #1 at 10:29:58 PM
+129 http request GET https://registry.npmjs.org/hapi
+130 verbose request uri https://registry.npmjs.org/hapi-cors-headers
+131 verbose request no auth needed
+132 info attempt registry request try #1 at 10:29:58 PM
+133 http request GET https://registry.npmjs.org/hapi-cors-headers
+134 verbose request uri https://registry.npmjs.org/hapi-swagger
+135 verbose request no auth needed
+136 info attempt registry request try #1 at 10:29:58 PM
+137 http request GET https://registry.npmjs.org/hapi-swagger
+138 verbose request uri https://registry.npmjs.org/inert
+139 verbose request no auth needed
+140 info attempt registry request try #1 at 10:29:58 PM
+141 http request GET https://registry.npmjs.org/inert
+142 verbose request uri https://registry.npmjs.org/jsonwebtoken
+143 verbose request no auth needed
+144 info attempt registry request try #1 at 10:29:58 PM
+145 http request GET https://registry.npmjs.org/jsonwebtoken
+146 verbose request uri https://registry.npmjs.org/lodash
+147 verbose request no auth needed
+148 info attempt registry request try #1 at 10:29:58 PM
+149 http request GET https://registry.npmjs.org/lodash
+150 verbose request uri https://registry.npmjs.org/mongoose
+151 verbose request no auth needed
+152 info attempt registry request try #1 at 10:29:58 PM
+153 http request GET https://registry.npmjs.org/mongoose
+154 verbose request uri https://registry.npmjs.org/mysql
+155 verbose request no auth needed
+156 info attempt registry request try #1 at 10:29:58 PM
+157 http request GET https://registry.npmjs.org/mysql
+158 verbose request uri https://registry.npmjs.org/os
+159 verbose request no auth needed
+160 info attempt registry request try #1 at 10:29:58 PM
+161 http request GET https://registry.npmjs.org/os
+162 verbose request uri https://registry.npmjs.org/sequelize
+163 verbose request no auth needed
+164 info attempt registry request try #1 at 10:29:58 PM
+165 http request GET https://registry.npmjs.org/sequelize
+166 verbose request uri https://registry.npmjs.org/vision
+167 verbose request no auth needed
+168 info attempt registry request try #1 at 10:29:58 PM
+169 http request GET https://registry.npmjs.org/vision
+170 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+171 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+172 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+173 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+174 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+175 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+176 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+177 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+178 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+179 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+180 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+181 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+182 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+183 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+184 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+185 info attempt registry request try #2 at 10:30:08 PM
+186 http request GET https://registry.npmjs.org/config
+187 info attempt registry request try #2 at 10:30:08 PM
+188 http request GET https://registry.npmjs.org/vision
+189 info attempt registry request try #2 at 10:30:08 PM
+190 http request GET https://registry.npmjs.org/inert
+191 info attempt registry request try #2 at 10:30:08 PM
+192 http request GET https://registry.npmjs.org/hapi
+193 info attempt registry request try #2 at 10:30:08 PM
+194 http request GET https://registry.npmjs.org/jsonwebtoken
+195 info attempt registry request try #2 at 10:30:08 PM
+196 http request GET https://registry.npmjs.org/hapi-swagger
+197 info attempt registry request try #2 at 10:30:08 PM
+198 http request GET https://registry.npmjs.org/hapi-cors-headers
+199 info attempt registry request try #2 at 10:30:08 PM
+200 http request GET https://registry.npmjs.org/mongoose
+201 info attempt registry request try #2 at 10:30:08 PM
+202 http request GET https://registry.npmjs.org/mysql
+203 info attempt registry request try #2 at 10:30:08 PM
+204 http request GET https://registry.npmjs.org/sequelize
+205 info attempt registry request try #2 at 10:30:08 PM
+206 http request GET https://registry.npmjs.org/os
+207 info attempt registry request try #2 at 10:30:08 PM
+208 http request GET https://registry.npmjs.org/bunyan
+209 info attempt registry request try #2 at 10:30:08 PM
+210 http request GET https://registry.npmjs.org/cluster
+211 info attempt registry request try #2 at 10:30:08 PM
+212 http request GET https://registry.npmjs.org/lodash
+213 info attempt registry request try #2 at 10:30:08 PM
+214 http request GET https://registry.npmjs.org/fs
+215 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+216 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+217 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+218 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+219 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+220 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+221 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+222 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+223 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+224 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+225 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+226 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+227 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+228 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+229 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+230 info attempt registry request try #3 at 10:31:08 PM
+231 http request GET https://registry.npmjs.org/config
+232 info attempt registry request try #3 at 10:31:08 PM
+233 http request GET https://registry.npmjs.org/mysql
+234 silly fetchPackageMetaData Error: unable to get local issuer certificate
+234 silly fetchPackageMetaData     at Error (native)
+234 silly fetchPackageMetaData     at TLSSocket.<anonymous> (_tls_wrap.js:1092:38)
+234 silly fetchPackageMetaData     at emitNone (events.js:86:13)
+234 silly fetchPackageMetaData     at TLSSocket.emit (events.js:185:7)
+234 silly fetchPackageMetaData     at TLSSocket._finishInit (_tls_wrap.js:609:8)
+234 silly fetchPackageMetaData     at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:439:38)
+234 silly fetchPackageMetaData  error for config@^1.27.0 { Error: unable to get local issuer certificate
+234 silly fetchPackageMetaData     at Error (native)
+234 silly fetchPackageMetaData     at TLSSocket.<anonymous> (_tls_wrap.js:1092:38)
+234 silly fetchPackageMetaData     at emitNone (events.js:86:13)
+234 silly fetchPackageMetaData     at TLSSocket.emit (events.js:185:7)
+234 silly fetchPackageMetaData     at TLSSocket._finishInit (_tls_wrap.js:609:8)
+234 silly fetchPackageMetaData     at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:439:38) code: 'UNABLE_TO_GET_ISSUER_CERT_LOCALLY' }
+235 silly fetchPackageMetaData Error: unable to get local issuer certificate
+235 silly fetchPackageMetaData     at Error (native)
+235 silly fetchPackageMetaData     at TLSSocket.<anonymous> (_tls_wrap.js:1092:38)
+235 silly fetchPackageMetaData     at emitNone (events.js:86:13)
+235 silly fetchPackageMetaData     at TLSSocket.emit (events.js:185:7)
+235 silly fetchPackageMetaData     at TLSSocket._finishInit (_tls_wrap.js:609:8)
+235 silly fetchPackageMetaData     at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:439:38)
+235 silly fetchPackageMetaData  error for mysql@^2.17.1 { Error: unable to get local issuer certificate
+235 silly fetchPackageMetaData     at Error (native)
+235 silly fetchPackageMetaData     at TLSSocket.<anonymous> (_tls_wrap.js:1092:38)
+235 silly fetchPackageMetaData     at emitNone (events.js:86:13)
+235 silly fetchPackageMetaData     at TLSSocket.emit (events.js:185:7)
+235 silly fetchPackageMetaData     at TLSSocket._finishInit (_tls_wrap.js:609:8)
+235 silly fetchPackageMetaData     at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:439:38) code: 'UNABLE_TO_GET_ISSUER_CERT_LOCALLY' }
+236 info attempt registry request try #3 at 10:31:08 PM
+237 http request GET https://registry.npmjs.org/hapi-cors-headers
+238 info attempt registry request try #3 at 10:31:08 PM
+239 http request GET https://registry.npmjs.org/bunyan
+240 info attempt registry request try #3 at 10:31:08 PM
+241 http request GET https://registry.npmjs.org/hapi-swagger
+242 info attempt registry request try #3 at 10:31:08 PM
+243 http request GET https://registry.npmjs.org/sequelize
+244 info attempt registry request try #3 at 10:31:08 PM
+245 http request GET https://registry.npmjs.org/cluster
+246 info attempt registry request try #3 at 10:31:08 PM
+247 http request GET https://registry.npmjs.org/hapi
+248 info attempt registry request try #3 at 10:31:08 PM
+249 http request GET https://registry.npmjs.org/os
+250 info attempt registry request try #3 at 10:31:08 PM
+251 http request GET https://registry.npmjs.org/vision
+252 info attempt registry request try #3 at 10:31:08 PM
+253 http request GET https://registry.npmjs.org/fs
+254 info attempt registry request try #3 at 10:31:08 PM
+255 http request GET https://registry.npmjs.org/inert
+256 info attempt registry request try #3 at 10:31:08 PM
+257 http request GET https://registry.npmjs.org/jsonwebtoken
+258 info attempt registry request try #3 at 10:31:08 PM
+259 http request GET https://registry.npmjs.org/mongoose
+260 info attempt registry request try #3 at 10:31:08 PM
+261 http request GET https://registry.npmjs.org/lodash
+262 silly fetchPackageMetaData Error: unable to get local issuer certificate
+262 silly fetchPackageMetaData     at Error (native)
+262 silly fetchPackageMetaData     at TLSSocket.<anonymous> (_tls_wrap.js:1092:38)
+262 silly fetchPackageMetaData     at emitNone (events.js:86:13)
+262 silly fetchPackageMetaData     at TLSSocket.emit (events.js:185:7)
+262 silly fetchPackageMetaData     at TLSSocket._finishInit (_tls_wrap.js:609:8)
+262 silly fetchPackageMetaData     at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:439:38)
+262 silly fetchPackageMetaData  error for hapi-swagger@^8.0.0 { Error: unable to get local issuer certificate
+262 silly fetchPackageMetaData     at Error (native)
+262 silly fetchPackageMetaData     at TLSSocket.<anonymous> (_tls_wrap.js:1092:38)
+262 silly fetchPackageMetaData     at emitNone (events.js:86:13)
+262 silly fetchPackageMetaData     at TLSSocket.emit (events.js:185:7)
+262 silly fetchPackageMetaData     at TLSSocket._finishInit (_tls_wrap.js:609:8)
+262 silly fetchPackageMetaData     at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:439:38) code: 'UNABLE_TO_GET_ISSUER_CERT_LOCALLY' }
+263 silly fetchPackageMetaData Error: unable to get local issuer certificate
+263 silly fetchPackageMetaData     at Error (native)
+263 silly fetchPackageMetaData     at TLSSocket.<anonymous> (_tls_wrap.js:1092:38)
+263 silly fetchPackageMetaData     at emitNone (events.js:86:13)
+263 silly fetchPackageMetaData     at TLSSocket.emit (events.js:185:7)
+263 silly fetchPackageMetaData     at TLSSocket._finishInit (_tls_wrap.js:609:8)
+263 silly fetchPackageMetaData     at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:439:38)
+263 silly fetchPackageMetaData  error for bunyan@^1.8.12 { Error: unable to get local issuer certificate
+263 silly fetchPackageMetaData     at Error (native)
+263 silly fetchPackageMetaData     at TLSSocket.<anonymous> (_tls_wrap.js:1092:38)
+263 silly fetchPackageMetaData     at emitNone (events.js:86:13)
+263 silly fetchPackageMetaData     at TLSSocket.emit (events.js:185:7)
+263 silly fetchPackageMetaData     at TLSSocket._finishInit (_tls_wrap.js:609:8)
+263 silly fetchPackageMetaData     at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:439:38) code: 'UNABLE_TO_GET_ISSUER_CERT_LOCALLY' }
+264 silly fetchPackageMetaData Error: unable to get local issuer certificate
+264 silly fetchPackageMetaData     at Error (native)
+264 silly fetchPackageMetaData     at TLSSocket.<anonymous> (_tls_wrap.js:1092:38)
+264 silly fetchPackageMetaData     at emitNone (events.js:86:13)
+264 silly fetchPackageMetaData     at TLSSocket.emit (events.js:185:7)
+264 silly fetchPackageMetaData     at TLSSocket._finishInit (_tls_wrap.js:609:8)
+264 silly fetchPackageMetaData     at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:439:38)
+264 silly fetchPackageMetaData  error for sequelize@^3.30.4 { Error: unable to get local issuer certificate
+264 silly fetchPackageMetaData     at Error (native)
+264 silly fetchPackageMetaData     at TLSSocket.<anonymous> (_tls_wrap.js:1092:38)
+264 silly fetchPackageMetaData     at emitNone (events.js:86:13)
+264 silly fetchPackageMetaData     at TLSSocket.emit (events.js:185:7)
+264 silly fetchPackageMetaData     at TLSSocket._finishInit (_tls_wrap.js:609:8)
+264 silly fetchPackageMetaData     at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:439:38) code: 'UNABLE_TO_GET_ISSUER_CERT_LOCALLY' }
+265 silly fetchPackageMetaData Error: unable to get local issuer certificate
+265 silly fetchPackageMetaData     at Error (native)
+265 silly fetchPackageMetaData     at TLSSocket.<anonymous> (_tls_wrap.js:1092:38)
+265 silly fetchPackageMetaData     at emitNone (events.js:86:13)
+265 silly fetchPackageMetaData     at TLSSocket.emit (events.js:185:7)
+265 silly fetchPackageMetaData     at TLSSocket._finishInit (_tls_wrap.js:609:8)
+265 silly fetchPackageMetaData     at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:439:38)
+265 silly fetchPackageMetaData  error for vision@^4.1.1 { Error: unable to get local issuer certificate
+265 silly fetchPackageMetaData     at Error (native)
+265 silly fetchPackageMetaData     at TLSSocket.<anonymous> (_tls_wrap.js:1092:38)
+265 silly fetchPackageMetaData     at emitNone (events.js:86:13)
+265 silly fetchPackageMetaData     at TLSSocket.emit (events.js:185:7)
+265 silly fetchPackageMetaData     at TLSSocket._finishInit (_tls_wrap.js:609:8)
+265 silly fetchPackageMetaData     at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:439:38) code: 'UNABLE_TO_GET_ISSUER_CERT_LOCALLY' }
+266 silly fetchPackageMetaData Error: unable to get local issuer certificate
+266 silly fetchPackageMetaData     at Error (native)
+266 silly fetchPackageMetaData     at TLSSocket.<anonymous> (_tls_wrap.js:1092:38)
+266 silly fetchPackageMetaData     at emitNone (events.js:86:13)
+266 silly fetchPackageMetaData     at TLSSocket.emit (events.js:185:7)
+266 silly fetchPackageMetaData     at TLSSocket._finishInit (_tls_wrap.js:609:8)
+266 silly fetchPackageMetaData     at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:439:38)
+266 silly fetchPackageMetaData  error for inert@^4.2.1 { Error: unable to get local issuer certificate
+266 silly fetchPackageMetaData     at Error (native)
+266 silly fetchPackageMetaData     at TLSSocket.<anonymous> (_tls_wrap.js:1092:38)
+266 silly fetchPackageMetaData     at emitNone (events.js:86:13)
+266 silly fetchPackageMetaData     at TLSSocket.emit (events.js:185:7)
+266 silly fetchPackageMetaData     at TLSSocket._finishInit (_tls_wrap.js:609:8)
+266 silly fetchPackageMetaData     at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:439:38) code: 'UNABLE_TO_GET_ISSUER_CERT_LOCALLY' }
+267 silly fetchPackageMetaData Error: unable to get local issuer certificate
+267 silly fetchPackageMetaData     at Error (native)
+267 silly fetchPackageMetaData     at TLSSocket.<anonymous> (_tls_wrap.js:1092:38)
+267 silly fetchPackageMetaData     at emitNone (events.js:86:13)
+267 silly fetchPackageMetaData     at TLSSocket.emit (events.js:185:7)
+267 silly fetchPackageMetaData     at TLSSocket._finishInit (_tls_wrap.js:609:8)
+267 silly fetchPackageMetaData     at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:439:38)
+267 silly fetchPackageMetaData  error for os@^0.1.1 { Error: unable to get local issuer certificate
+267 silly fetchPackageMetaData     at Error (native)
+267 silly fetchPackageMetaData     at TLSSocket.<anonymous> (_tls_wrap.js:1092:38)
+267 silly fetchPackageMetaData     at emitNone (events.js:86:13)
+267 silly fetchPackageMetaData     at TLSSocket.emit (events.js:185:7)
+267 silly fetchPackageMetaData     at TLSSocket._finishInit (_tls_wrap.js:609:8)
+267 silly fetchPackageMetaData     at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:439:38) code: 'UNABLE_TO_GET_ISSUER_CERT_LOCALLY' }
+268 silly fetchPackageMetaData Error: unable to get local issuer certificate
+268 silly fetchPackageMetaData     at Error (native)
+268 silly fetchPackageMetaData     at TLSSocket.<anonymous> (_tls_wrap.js:1092:38)
+268 silly fetchPackageMetaData     at emitNone (events.js:86:13)
+268 silly fetchPackageMetaData     at TLSSocket.emit (events.js:185:7)
+268 silly fetchPackageMetaData     at TLSSocket._finishInit (_tls_wrap.js:609:8)
+268 silly fetchPackageMetaData     at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:439:38)
+268 silly fetchPackageMetaData  error for jsonwebtoken@^8.1.0 { Error: unable to get local issuer certificate
+268 silly fetchPackageMetaData     at Error (native)
+268 silly fetchPackageMetaData     at TLSSocket.<anonymous> (_tls_wrap.js:1092:38)
+268 silly fetchPackageMetaData     at emitNone (events.js:86:13)
+268 silly fetchPackageMetaData     at TLSSocket.emit (events.js:185:7)
+268 silly fetchPackageMetaData     at TLSSocket._finishInit (_tls_wrap.js:609:8)
+268 silly fetchPackageMetaData     at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:439:38) code: 'UNABLE_TO_GET_ISSUER_CERT_LOCALLY' }
+269 silly fetchPackageMetaData Error: unable to get local issuer certificate
+269 silly fetchPackageMetaData     at Error (native)
+269 silly fetchPackageMetaData     at TLSSocket.<anonymous> (_tls_wrap.js:1092:38)
+269 silly fetchPackageMetaData     at emitNone (events.js:86:13)
+269 silly fetchPackageMetaData     at TLSSocket.emit (events.js:185:7)
+269 silly fetchPackageMetaData     at TLSSocket._finishInit (_tls_wrap.js:609:8)
+269 silly fetchPackageMetaData     at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:439:38)
+269 silly fetchPackageMetaData  error for hapi-cors-headers@^1.0.0 { Error: unable to get local issuer certificate
+269 silly fetchPackageMetaData     at Error (native)
+269 silly fetchPackageMetaData     at TLSSocket.<anonymous> (_tls_wrap.js:1092:38)
+269 silly fetchPackageMetaData     at emitNone (events.js:86:13)
+269 silly fetchPackageMetaData     at TLSSocket.emit (events.js:185:7)
+269 silly fetchPackageMetaData     at TLSSocket._finishInit (_tls_wrap.js:609:8)
+269 silly fetchPackageMetaData     at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:439:38) code: 'UNABLE_TO_GET_ISSUER_CERT_LOCALLY' }
+270 silly fetchPackageMetaData Error: unable to get local issuer certificate
+270 silly fetchPackageMetaData     at Error (native)
+270 silly fetchPackageMetaData     at TLSSocket.<anonymous> (_tls_wrap.js:1092:38)
+270 silly fetchPackageMetaData     at emitNone (events.js:86:13)
+270 silly fetchPackageMetaData     at TLSSocket.emit (events.js:185:7)
+270 silly fetchPackageMetaData     at TLSSocket._finishInit (_tls_wrap.js:609:8)
+270 silly fetchPackageMetaData     at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:439:38)
+270 silly fetchPackageMetaData  error for lodash@^4.17.4 { Error: unable to get local issuer certificate
+270 silly fetchPackageMetaData     at Error (native)
+270 silly fetchPackageMetaData     at TLSSocket.<anonymous> (_tls_wrap.js:1092:38)
+270 silly fetchPackageMetaData     at emitNone (events.js:86:13)
+270 silly fetchPackageMetaData     at TLSSocket.emit (events.js:185:7)
+270 silly fetchPackageMetaData     at TLSSocket._finishInit (_tls_wrap.js:609:8)
+270 silly fetchPackageMetaData     at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:439:38) code: 'UNABLE_TO_GET_ISSUER_CERT_LOCALLY' }
+271 silly fetchPackageMetaData Error: unable to get local issuer certificate
+271 silly fetchPackageMetaData     at Error (native)
+271 silly fetchPackageMetaData     at TLSSocket.<anonymous> (_tls_wrap.js:1092:38)
+271 silly fetchPackageMetaData     at emitNone (events.js:86:13)
+271 silly fetchPackageMetaData     at TLSSocket.emit (events.js:185:7)
+271 silly fetchPackageMetaData     at TLSSocket._finishInit (_tls_wrap.js:609:8)
+271 silly fetchPackageMetaData     at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:439:38)
+271 silly fetchPackageMetaData  error for mongoose@^4.10.8 { Error: unable to get local issuer certificate
+271 silly fetchPackageMetaData     at Error (native)
+271 silly fetchPackageMetaData     at TLSSocket.<anonymous> (_tls_wrap.js:1092:38)
+271 silly fetchPackageMetaData     at emitNone (events.js:86:13)
+271 silly fetchPackageMetaData     at TLSSocket.emit (events.js:185:7)
+271 silly fetchPackageMetaData     at TLSSocket._finishInit (_tls_wrap.js:609:8)
+271 silly fetchPackageMetaData     at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:439:38) code: 'UNABLE_TO_GET_ISSUER_CERT_LOCALLY' }
+272 silly fetchPackageMetaData Error: unable to get local issuer certificate
+272 silly fetchPackageMetaData     at Error (native)
+272 silly fetchPackageMetaData     at TLSSocket.<anonymous> (_tls_wrap.js:1092:38)
+272 silly fetchPackageMetaData     at emitNone (events.js:86:13)
+272 silly fetchPackageMetaData     at TLSSocket.emit (events.js:185:7)
+272 silly fetchPackageMetaData     at TLSSocket._finishInit (_tls_wrap.js:609:8)
+272 silly fetchPackageMetaData     at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:439:38)
+272 silly fetchPackageMetaData  error for fs@0.0.1-security { Error: unable to get local issuer certificate
+272 silly fetchPackageMetaData     at Error (native)
+272 silly fetchPackageMetaData     at TLSSocket.<anonymous> (_tls_wrap.js:1092:38)
+272 silly fetchPackageMetaData     at emitNone (events.js:86:13)
+272 silly fetchPackageMetaData     at TLSSocket.emit (events.js:185:7)
+272 silly fetchPackageMetaData     at TLSSocket._finishInit (_tls_wrap.js:609:8)
+272 silly fetchPackageMetaData     at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:439:38) code: 'UNABLE_TO_GET_ISSUER_CERT_LOCALLY' }
+273 silly fetchPackageMetaData Error: unable to get local issuer certificate
+273 silly fetchPackageMetaData     at Error (native)
+273 silly fetchPackageMetaData     at TLSSocket.<anonymous> (_tls_wrap.js:1092:38)
+273 silly fetchPackageMetaData     at emitNone (events.js:86:13)
+273 silly fetchPackageMetaData     at TLSSocket.emit (events.js:185:7)
+273 silly fetchPackageMetaData     at TLSSocket._finishInit (_tls_wrap.js:609:8)
+273 silly fetchPackageMetaData     at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:439:38)
+273 silly fetchPackageMetaData  error for cluster@^0.7.7 { Error: unable to get local issuer certificate
+273 silly fetchPackageMetaData     at Error (native)
+273 silly fetchPackageMetaData     at TLSSocket.<anonymous> (_tls_wrap.js:1092:38)
+273 silly fetchPackageMetaData     at emitNone (events.js:86:13)
+273 silly fetchPackageMetaData     at TLSSocket.emit (events.js:185:7)
+273 silly fetchPackageMetaData     at TLSSocket._finishInit (_tls_wrap.js:609:8)
+273 silly fetchPackageMetaData     at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:439:38) code: 'UNABLE_TO_GET_ISSUER_CERT_LOCALLY' }
+274 silly fetchPackageMetaData Error: unable to get local issuer certificate
+274 silly fetchPackageMetaData     at Error (native)
+274 silly fetchPackageMetaData     at TLSSocket.<anonymous> (_tls_wrap.js:1092:38)
+274 silly fetchPackageMetaData     at emitNone (events.js:86:13)
+274 silly fetchPackageMetaData     at TLSSocket.emit (events.js:185:7)
+274 silly fetchPackageMetaData     at TLSSocket._finishInit (_tls_wrap.js:609:8)
+274 silly fetchPackageMetaData     at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:439:38)
+274 silly fetchPackageMetaData  error for hapi@^16.6.2 { Error: unable to get local issuer certificate
+274 silly fetchPackageMetaData     at Error (native)
+274 silly fetchPackageMetaData     at TLSSocket.<anonymous> (_tls_wrap.js:1092:38)
+274 silly fetchPackageMetaData     at emitNone (events.js:86:13)
+274 silly fetchPackageMetaData     at TLSSocket.emit (events.js:185:7)
+274 silly fetchPackageMetaData     at TLSSocket._finishInit (_tls_wrap.js:609:8)
+274 silly fetchPackageMetaData     at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:439:38) code: 'UNABLE_TO_GET_ISSUER_CERT_LOCALLY' }
+275 silly rollbackFailedOptional Starting
+276 silly rollbackFailedOptional Finishing
+277 silly runTopLevelLifecycles Finishing
+278 silly install printInstalled
+279 verbose stack Error: unable to get local issuer certificate
+279 verbose stack     at Error (native)
+279 verbose stack     at TLSSocket.<anonymous> (_tls_wrap.js:1092:38)
+279 verbose stack     at emitNone (events.js:86:13)
+279 verbose stack     at TLSSocket.emit (events.js:185:7)
+279 verbose stack     at TLSSocket._finishInit (_tls_wrap.js:609:8)
+279 verbose stack     at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:439:38)
+280 verbose cwd /home/ec2-user/nodejs_project/backend
+281 error Linux 4.14.225-169.362.amzn2.x86_64
+282 error argv "/usr/bin/node" "/usr/bin/npm" "install"
+283 error node v6.17.1
+284 error npm  v3.10.10
+285 error code UNABLE_TO_GET_ISSUER_CERT_LOCALLY
+286 error unable to get local issuer certificate
+287 error If you need help, you may report this error at:
+287 error     <https://github.com/npm/npm/issues>
+288 verbose exit [ 1, true ]

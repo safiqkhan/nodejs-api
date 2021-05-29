@@ -1,0 +1,62 @@
+version: '3.7'
+services:
+  nodejs-api:
+    restart: always
+    build:
+      context: .
+    container_name: nodejs-api
+    depends_on:
+      - mongo-db
+      - sql-db      
+    volumes:
+      - ./nodejs-home:/usr/src/app
+    ports:
+      - "51005:51005"
+    networks:
+      - net
+  mongo-db:
+    restart: always 
+    image: mongo
+    ports:
+      - "27017:27017"
+    container_name: mongo-db
+    environment:
+      - MONGO_INITDB_DATABASE=backend_demo
+      - MONGO_INITDB_ROOT_USERNAME=mongo_user
+      - MONGO_INITDB_ROOT_PASSWORD=secret    
+    volumes:
+      - ./mongodb:/data/db  
+    networks:
+      - net
+  sql-db:
+    container_name: sql-db
+    image: mysql:5.7
+    environment:
+      - MYSQL_ROOT_PASSWORD=passwod
+      - MYSQL_DATABASE=backend_demo
+      - MYSQL_USER=root
+    volumes:
+      - "$PWD/db_data:/var/lib/mysql"
+    networks:
+      - net
+  proxy:
+    restart: on-failure:3
+    image: nginx:1.18.0      
+    container_name: nginx     
+    user: root
+    ports:
+      - '80:80'
+      - '443:443'
+    volumes:
+      - ./nginx_ssl.conf:/etc/nginx/conf.d/nginx_ssl.conf
+    # - ./nginx.conf:/etc/nginx/conf.d/nginx.conf
+      - ./host.cert:/etc/nginx/ssl/host.cert:ro
+      - ./host.key:/etc/nginx/ssl/host.key:ro
+
+    links:
+      - nodejs-api:nodejs-api
+    networks:
+      - net    
+networks:
+  net:
+

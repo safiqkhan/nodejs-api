@@ -1,0 +1,34 @@
+#Secure Websites Using SSL And Certificates 
+Step 1: Preconfigure OpenSSL using yum install openssl
+cd /etc/pki/tls
+In the listing you should see the file openssl.cnf. Go ahead and open up this file in your favorite editor and find the beginning of the [ req_distinguished_name ] section. Modify the countryName_default, stateOrProvinceName_default, 0.organizationName_default, 1.organizationName_default values with the values that suit your needs
+
+Step 2: Creating The Server CA 
+rm -rf ../../CA
+misc/CA -newca
+The CA for the server has been created and placed in the /etc/CA/private/cakey.pem file.
+
+Step 3: Creating A Server Certificate Request
+misc/CA -newreq
+The certificate request has now been created and placed in the file /etc/pki/tls/newreq.pem and the private key is in /etc/pki/tls/newkey.pem.
+
+Step 4: Signing The Certificate
+misc/CA -sign
+The certificate has now been self-signed and placed in the /etc/pki/tls directory
+cp /etc/pki/tls/newcert.pem nodejs_project/server.crt
+cp /etc/pki/tls/newkey.pem nodejs_project/server.key
+
+Step 5: Configure Nginx
+cp server.key server.key.orig
+openssl rsa -in server.key.orig -out server.key
+
+chmod 700 server.key
+service nginx restart
+
+
+
+#----------------------or----------------------
+openssl genrsa 2048 > host.key
+chmod 400 host.key
+openssl req -new -x509 -nodes -sha256 -days 365 -key host.key -out host.cert
+
